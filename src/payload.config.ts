@@ -21,9 +21,9 @@ export default buildConfig({
   admin: {
     user: Users.slug,
   },
-  cors: ['https://localhost:3000' || ''].filter(Boolean),
+  cors: ['http://localhost:3000/' || ''].filter(Boolean),
   csrf: [
-    "https://localhost:3000"
+    "http://localhost:3000/"
   ],
   collections: [Users, ServiceArticles, Media, Makers, Logos, Guides, Brps],
   editor: lexicalEditor({}),
