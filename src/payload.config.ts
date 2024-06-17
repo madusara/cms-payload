@@ -21,6 +21,12 @@ export default buildConfig({
   admin: {
     user: Users.slug,
   },
+  cors: [
+    "http://localhost:3000"
+  ],
+  csrf: [
+    "http://localhost:3000"
+  ],
   collections: [Users, ServiceArticles, Media, Makers, Logos, Guides, Brps],
   editor: lexicalEditor({}),
   // plugins: [payloadCloud()], // TODO: Re-enable when cloud supports 3.0
