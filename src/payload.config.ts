@@ -22,10 +22,10 @@ export default buildConfig({
     user: Users.slug,
   },
   cors: [
-    "http://localhost:3000"
+    "https://localhost:3000", "http://localhost:3000"
   ],
   csrf: [
-    "http://localhost:3000"
+    "https://localhost:3000"
   ],
   collections: [Users, ServiceArticles, Media, Makers, Logos, Guides, Brps],
   editor: lexicalEditor({}),
