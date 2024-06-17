@@ -21,9 +21,7 @@ export default buildConfig({
   admin: {
     user: Users.slug,
   },
-  cors: [
-    "http://localhost:3000/"
-  ],
+  cors: '*',
   csrf: [
     "https://localhost:3000"
   ],
