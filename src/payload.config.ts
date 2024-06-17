@@ -22,7 +22,7 @@ export default buildConfig({
     user: Users.slug,
   },
   cors: [
-    "http://localhost:3000"
+    "http://localhost:3000/"
   ],
   csrf: [
     "https://localhost:3000"
